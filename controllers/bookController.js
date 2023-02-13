@@ -6,6 +6,8 @@ const { body, validationResult } = require("express-validator");
 
 const async = require("async");
 
+// do nothing
+
 exports.index = (req, res) => {
   async.parallel(
     {
